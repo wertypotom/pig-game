@@ -18,6 +18,8 @@ let isPlaying;
 
 // let currentScore, activePlayer, totalScores, isPlaying;
 
+console.log('hello this is my first game')
+
 const initGame = () => {
     totalScore0El.textContent = 0
     totalScore1EL.textContent = 0
@@ -96,6 +98,4 @@ holdBtnEl.addEventListener('click', () => {
 })
 
 newGameBtnEl.addEventListener('click', initGame)
-
-
 
